@@ -1,49 +1,17 @@
-# NebulasVPN Client Downloads
+# Nebulas Releases
 
-This repository provides automatic builds and releases of the NebulasVPN client installer for easy installation on Windows systems.
+Official public release artifacts for Nebulas desktop applications.
 
-## Download Release
+## Nebulas Print Client
 
-To download the latest version of the NebulasVPN client:
+Print Client releases use `print-client-v*` tags and include signed Windows MSI packages, macOS disk images, Linux packages, and SHA-256 checksums.
 
-1. Go to the [Releases page](https://github.com/impresacloud/NebulasVPN-releases/releases)
-2. Download the latest `.exe` file (e.g., `NebulasVPNInstaller-1.0.3.exe`)
-3. Run with Administrator privileges and configure NebulasVPN
+[Download Nebulas Print Client releases](https://github.com/impresacloud/Nebulas-releases/releases?q=print-client-v)
 
-## Features
+## Nebulas VPN
 
-- Automated builds via GitHub Actions
-- Self-contained Windows executable
-- GUI configuration dialog
-- No additional dependencies required
+VPN releases use `v*` tags and include the Windows installer.
 
-## Prerequisites
+[Download Nebulas VPN releases](https://github.com/impresacloud/Nebulas-releases/releases)
 
-- Windows 10 or later
-- Internet connection for download
-
----
-
-# Download Client NebulasVPN
-
-Questo repository fornisce build automatiche e rilasci del client di installazione NebulasVPN per una facile installazione su sistemi Windows.
-
-## Scarica Rilascio
-
-Per scaricare l'ultima versione del client NebulasVPN:
-
-1. Vai alla pagina dei [Rilasci](https://github.com/impresacloud/NebulasVPN-releases/releases)
-2. Scarica l'ultimo file `.exe` (ad esempio, `NebulasVPNInstaller-1.0.3.exe`)
-3. Esegui con privilegio di amministratore per installare e configurare NebulasVPN
-
-## Caratteristiche
-
-- Build automatizzate tramite GitHub Actions
-- Eseguibile Windows autonomo
-- Dialogo di configurazione GUI
-- Nessuna dipendenza aggiuntiva richiesta
-
-## Prerequisiti
-
-- Windows 10 o successivo
-- Connessione Internet per il download
+Only download artifacts from this repository and verify the published checksums when available.
